@@ -1,0 +1,82 @@
+:root {
+  --text-align: center;
+
+  --primary-color: rgb(127, 157, 214);
+  --secondary-color: rgb(53, 125, 164);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.colDisplay {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imgDisplay {
+  border-radius: 10px;
+}
+.btnclass {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.colimg {
+  border: 6px;
+  background-color: rgb(191, 197, 236);
+}
+
+.colImgAbout {
+  border: 3px;
+  background-color: rgb(191, 197, 236);
+  margin: 20px;
+
+}
+.colImgAbout img {
+  margin:0 auto;
+  display: block;
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+}
+.coltxt {
+  border-style: solid;
+  border: 3px;
+  border-color: blueviolet;
+}
+.h1class {
+  font-size: 96px;
+  text-align: center;
+}
+.h2class {
+  font-size: 48px;
+  text-align: center;
+}
+.btnClass {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 200px;
+  height: 65px;
+}
+.btn2 {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 200px;
+  height: 65px;
+}
+
+.pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
